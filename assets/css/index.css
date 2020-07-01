@@ -1,0 +1,296 @@
+body{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+/*Header Start*/
+header{
+    width: 100%;
+    text-align: justify;
+    background-image: url(../../assets/img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+header .left{
+    margin-top: 100px;
+    max-width: 40%;
+    float: left;
+    display: block;
+    padding: 5%;
+}
+header .right{
+    width: 40%;
+    float: left;
+    display: block;
+    padding: 5%;
+}
+
+header h1{
+    margin: 3px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #EC4C7A;
+
+}
+header h3{
+    margin: 3px;
+    font-size: 40px;
+    font-weight: 500;
+}
+header p{
+    margin-bottom: 50px;
+    color: dimgray;
+    font-weight: 200;
+    text-align: justify;
+    line-height: 28px;
+    font-size: 18px;
+}
+header .link-button{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 15px 25px 15px 25px;
+    background-color: #EC4B75;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+header .link-button:hover{
+    background-color: white;
+    color: #EC4B75;
+    border: 1px solid #EC4B75;
+}
+
+/*Header End*/
+
+/*Biography start*/
+#biography{
+    margin-top: 50px;
+    width: 100%;
+    text-align: justify;
+    background-image: url(../../assets/img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    
+    
+}
+#biography .left{
+    width: 40%;
+    float: left;
+    display: block;
+    padding: 5%;
+   
+}
+#biography .right{
+    margin-top: 100px;
+    max-width: 40%;
+    float: left;
+    display: block;
+    padding: 5%;
+}
+
+#biography h1{
+    margin: 3px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #EC4C7A;
+
+}
+#biography h3{
+    margin: 3px;
+    font-size: 40px;
+    font-weight: 500;
+}
+#biography p{
+    margin-bottom: 50px;
+    color: dimgray;
+    font-weight: 200;
+    text-align: justify;
+    line-height: 28px;
+    font-size: 18px;
+}
+#biography .link-button{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 15px 25px 15px 25px;
+    background-color: #EC4B75;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+#biography .link-button:hover{
+    background-color: white;
+    color: #EC4B75;
+    border: 1px solid #EC4B75;
+}
+/*Biography Start*/
+
+/*work Start*/
+#work{
+    height: 600px;
+    background-image: url(../../assets/img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#work h3{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    
+}
+#work .showcase{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px 5px 10px gray;
+}
+.first img{
+    display: block;
+    float: left;
+    padding: 1%;
+    border-radius: 5px 5px 10px gray;
+    
+}
+.second img{
+    display: block;
+    float: left;
+    padding: 1%;
+    border-radius: 5px 5px 10px gray;
+    
+}
+.third img{
+    display: block;
+    float: left;
+    padding: 1%;
+    border-radius: 5px 5px 10px gray;
+   
+}
+
+
+/*Client Start*/
+#client{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 600px;
+    background-image: url(../../assets/img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.message{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+#client .message p{
+    font-size: 15px;
+    font-weight: 200;
+    color: dimgray;
+    margin-bottom: 40px;
+}
+#client .message q{
+   line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+#client .owner-contact{
+    color: white;
+    width: 100%;
+    display: block;
+    float: center;
+    background-color: #EC4E8C;
+    border-radius: 5px;
+    padding: 20px 0px;
+}
+#client .owner-contact p{
+    font-weight: 200;
+}
+#client .owner-contact h2{
+    font-weight: 600;
+}
+
+/*Form Start*/
+#forrm-section{
+    height: 600px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-image: url(../../assets/img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+
+}
+#forrm-section form{
+    margin-top: 100px;
+    text-align: center;
+}
+#forrm-section form .left{
+    display: block;
+    float: left;
+    width: 50%;
+    
+}
+#forrm-section form .left input{
+    width: 90%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+#forrm-section form .right{
+    display: block;
+    float: left;
+    width: 50%;
+    
+}
+#forrm-section form .right textarea{
+    float: left;
+    margin-left: 5%;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+#forrm-section form .right  .link-button{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 15px 25px 15px 25px;
+    background-color: #EC4B75;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+
+}
+#forrm-section form .right .link-button:hover{
+    background-color: white;
+    color: #EC4B75;
+    border: 1px solid #EC4B75;
+}
+#forrm-section form ::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+footer{
+    text-align: center;
+    font-weight: 200;
+    color: dimgray;
+}
